@@ -1,4 +1,4 @@
-class {
+class dateFn {
   constructor(){
     return '自定义的时间格式处理方法'
   }
@@ -152,7 +152,6 @@ class {
     
     /**
      * @描述：获取明天（开始时间和结束时间值）
-
      */
     getTomorrowDateTime () {
         var daymsTime = 24 * 60 * 60 * 1000;
@@ -170,3 +169,5 @@ class {
     }
 
 }
+const date = new dateFn()
+export default date
