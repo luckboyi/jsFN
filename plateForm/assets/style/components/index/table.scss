@@ -1,0 +1,87 @@
+.gray-button {
+    display: inline-block;
+    // padding:4px;
+    color: rgba(163, 165, 167, 1);
+    width: 52px;
+    height: 22px;
+    border: 1px solid rgba(203, 203, 203, 0.9);
+    border-radius: 4px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: all .3s;
+
+    &:hover {
+        color: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(255, 255, 255, 1);
+    }
+}
+
+.icon-zuans12-10 {
+    position: relative;
+    top: 1px;
+}
+
+.join-btn {
+    width: 72px;
+    height: 22px;
+    line-height: 22px;
+    margin-top: 9px;
+}
+
+.icon-jinb16-16 {
+    position: relative;
+    top: 2px !important;
+}
+
+.table-box {
+    width: 100%;
+    padding-bottom: 80px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+    .lock {
+        line-height: 40px;
+        text-align: center;
+
+        img {
+            position: relative;
+            top: 2px;
+        }
+    }
+
+    .table-body {
+        position: absolute;
+        width: 100%;
+        top: 35px;
+        bottom: 0;
+        overflow-x: hidden;
+
+        .row {
+            width: calc(100% + 6px);
+        }
+    }
+}
+
+.icon-cell {
+    overflow: hidden;
+
+    >span:nth-child(2) {
+        text-align: left;
+        float: left;
+        width: 52px;
+        min-height: 1px;
+    }
+
+    >span:nth-child(1) {
+        float: left;
+        width: 12px;
+        margin-left: 12px;
+        margin-right: 4px;
+        margin-top: 12px;
+    }
+
+    .icon-zuans12-10 {
+        margin-top: 15px !important;
+    }
+}

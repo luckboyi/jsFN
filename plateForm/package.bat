@@ -1,0 +1,2 @@
+@echo off
+cmd /k "echo 开始打包！ && npm run generate && echo 打包完毕，开始删除测试旧包 && rmdir /s/q \\192.168.100.222\shar(可读写)\web\对战平台\front\dist\ && echo 已删除测试旧包，开始提交新包！ &&  xcopy /y .\dist \\192.168.100.222\shar(可读写)\web\对战平台\front\dist\ /e && echo 前端打包文件已经发送到共享目录!"

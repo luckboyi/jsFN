@@ -1,0 +1,72 @@
+.login-btn {
+    width: 160px;
+    height: 30px;
+    line-height: 28px;
+    margin: 0 auto 10px;
+    display: block;
+}
+.whds-login-btn {
+    text-align: center;
+    line-height: 28px;
+    width: 160px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    transition: all .3s;
+    &:hover{
+        color: #fff;
+        border-color:#fff;
+    }
+}
+// 手机号输入框样式
+.phone-box {
+    .prefix {
+        position: relative;
+        top: -1px;
+        margin-left: 4px;
+    }
+}
+// 短信验证码样式
+.msg-box {
+    overflow: hidden;
+    .gray-border {
+        width: 170px;
+        float: left;
+    }
+    .sms-btn {
+        width: 76px;
+        height: 30px;
+        border: 1px solid #b7b7b7;
+        border-radius: 10px;
+        color: #b7b7b7;
+        line-height: 28px;
+        text-align: center;
+        margin-left: 14px;
+        transition: all .3s;
+        &:hover{
+            color: #fff;
+            border-color:#fff;
+        }
+    }
+}
+// 错误提示样式
+.wrong-msg {
+    text-align: center;
+    margin-bottom: 10px;
+    span{
+        display: inline-block;
+    }
+}
+
+.icon-phone{
+    position: relative;
+    top:2px;
+}
+
+.icon-user{
+    position: relative;
+    top:1px;
+}
+.icon-password{
+    position: relative;
+    top:1px;
+}

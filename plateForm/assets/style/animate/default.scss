@@ -1,0 +1,42 @@
+// 左右上下渐入
+.animate-hide-top {
+  left: 0;
+  position: absolute;
+  visibility: hidden;
+  top: -20%;
+  opacity: 0;
+  transition: all .6s;
+}
+
+.animate-hide-bottom {
+  left: 0;
+  position: absolute;
+  visibility: hidden;
+  top: -30px;
+  opacity: 0;
+  transition: all .3s;
+}
+
+.fadeIn-left {
+  visibility: visible;
+  opacity: 1;
+  left: 0px;
+}
+
+.fadeIn-right {
+  visibility: visible;
+  opacity: 1;
+  right: 0px;
+}
+
+.fadeIn-top {
+  visibility: visible;
+  opacity: 1;
+  top: 0px;
+}
+
+.fadeIn-bottom {
+  visibility: visible;
+  opacity: 1;
+  top: 0px;
+}

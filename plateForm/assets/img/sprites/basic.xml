@@ -1,0 +1,24 @@
+<TextureAtlas imagePath="sprites.png">
+	<SubTexture name="choice.png" x="0" y="182" width="75" height="26"/>
+	<SubTexture name="cs.png" x="80" y="154" width="28" height="28"/>
+	<SubTexture name="dota.png" x="98" y="184" width="28" height="26"/>
+	<SubTexture name="dw.png" x="62" y="232" width="21" height="22"/>
+	<SubTexture name="game.png" x="98" y="212" width="26" height="26"/>
+	<SubTexture name="jinb16x16.png" x="126" y="238" width="15" height="15"/>
+	<SubTexture name="kef.png" x="110" y="161" width="20" height="21"/>
+	<SubTexture name="password.png" x="85" y="240" width="13" height="14"/>
+	<SubTexture name="phone.png" x="136" y="135" width="11" height="15"/>
+	<SubTexture name="pubg.png" x="62" y="210" width="34" height="20"/>
+	<SubTexture name="radio.png" x="0" y="135" width="108" height="17"/>
+	<SubTexture name="sbjb.png" x="0" y="0" width="119" height="133"/>
+	<SubTexture name="search.png" x="128" y="184" width="16" height="17"/>
+	<SubTexture name="sljb.png" x="121" y="0" width="119" height="133"/>
+	<SubTexture name="time.png" x="0" y="154" width="78" height="26"/>
+	<SubTexture name="user.png" x="132" y="161" width="14" height="15"/>
+	<SubTexture name="whds-logo.png" x="126" y="212" width="24" height="24"/>
+	<SubTexture name="wifi.png" x="77" y="184" width="19" height="13"/>
+	<SubTexture name="xzzh.png" x="0" y="210" width="60" height="30"/>
+	<SubTexture name="yzm.png" x="0" y="242" width="16" height="10"/>
+	<SubTexture name="zfb-logo.png" x="110" y="135" width="24" height="24"/>
+	<SubTexture name="zuans12x10.png" x="18" y="242" width="12" height="10"/>
+</TextureAtlas>
