@@ -5,6 +5,7 @@ exports.install = function(Vue,options) {
     console.log(callbackFn)
   }
 }
+
 //在main.js中
 //import commonVue from './commonVue
 //Vue.use(commonVue)
